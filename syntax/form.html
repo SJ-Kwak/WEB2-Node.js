@@ -1,0 +1,13 @@
+<form action="http://localhost:3000/process_create"
+method="post">
+    <p><input type="text" name="title"></p>
+    <p>
+        <textarea name="description"></textarea>
+    </p>
+    <p>
+        <input type="submit">
+    </p>
+</form>
+//submit 눌렀을 때, action속성이 가르키는 서버로 querystring의 형태로 전송
+//post 사용하면 querystring이 보이지 않고 은밀하게 데이터 전송 가능
+//기존: get 방식
